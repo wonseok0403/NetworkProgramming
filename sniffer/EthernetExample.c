@@ -1,3 +1,13 @@
+/*
+** @Author      Wonseok. J
+** @Date        2018. JUL. 6
+** @Environment VSCode on Ubuntu 18.
+*/
+
+// tasks
+//               "-g","-o", 
+//                "./ICMP/PacketCaputre", "./ICMP/icmplib.c", "./ICMP/PacketCapture.c", "-lpcap", "-lpthread"
+
 #include<stdio.h>
 #include<string.h>
 

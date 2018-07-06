@@ -16,7 +16,7 @@ void make_ether_header(struct ether_header *ether_header, uint8_t *dest, uint8_t
     ether_header->ether_type = htons(type);
 }
 
-void make_arp_header(struct ether_arp * ether_arp, uint8_t *sha, uint32_t spa, uint8_t *tha, uint32_t tpa, uint32_t op){
+void make_arp_header(struct ether_arp *ether_arp, uint8_t *sha, uint32_t spa, uint8_t *tha, uint32_t tpa, uint32_t op){
     ether_arp->arp_hrd=ntohs(1);
     ether_arp->arp_pro = ntohs(ETHERTYPE_IP);
     ether_arp->arp_hln = 6;
